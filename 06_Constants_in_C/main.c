@@ -106,7 +106,7 @@ int main(int argc, char const* argv[]) {
     // a = 55; // error
 
     // Or we can use #define name value
-    // At the top of the main function.
+    // Generally At the top of the main function.
 
     return 0;
 }
