@@ -58,6 +58,22 @@ int main(int argc, char const* argv[]) {
     // And associativity.
 
     
+    // << -> Left Shift Operator
+    // This is used to shift the number to the left side.
+    // Basically in memory level (bit level), it'll shift the numbers by the number of time.
+    // And shifted places will have 0 if no binary is present.
+
+    // >> -> Right Shift Operator
+    // Same as Left shift, but the direction is opposite.
+
+    // ~ Bitwise Not Operator
+    // It'll do the same thing as !.
+    // But at bitwise level.
+    // If binary is 1 it'll change to 0.
+    // If 0 then it'll change to 1.
+    // Shortcut answer is:
+    int z = ~a;
+    // Now z = -(a + 1);
 
 
     
