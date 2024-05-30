@@ -37,7 +37,33 @@ int main(int argc, char const* argv[]) {
 	// If we are writing one line, then we don't have write block {}, but if more than one line,
 	// we have to write {}.
 
-	// 
+	// We can also use nested if-else
+
+	if (1) {
+		if (1) {
+			printf("inside nested if\n");
+		}
+	}
+
+	// We can use operators as well in condition.
+	// !=, <=, ==, &&, ||, etc...
+
+	// The main thing is final result.
+
+	// We can use else-if ladder
+
+	// creating a variable for non-zero value as true.
+	int true = 1;
+
+	if (true) {
+
+	} else if (true) {
+
+	} else if (false) {
+
+	} else {
+		// this will execute when no if or else if is true.
+	}
 
 	return 0;
 }
